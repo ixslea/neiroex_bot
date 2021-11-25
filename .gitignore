@@ -2,3 +2,5 @@
 .idea
 .env
 .npmrc
+.babelrc
+Procfile
