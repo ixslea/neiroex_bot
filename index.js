@@ -1,7 +1,8 @@
 
 
 TeleBot = require('telebot');
-const token = '1990816736:AAEFGrgLv7MHPRyETyM8h4e32Ldk09Om6v0'
+require('dotenv').config();
+const token = process.env.TOKEN;
 const bot = new TeleBot({
     token: token,
     usePlugins: ['commandButton']
