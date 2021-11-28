@@ -1,6 +1,6 @@
 const express = require("express");
 const app = express();
-const port = 5000;
+
 TeleBot = require('telebot');
 require('dotenv').config();
 const token = process.env.TOKEN;
@@ -19,7 +19,7 @@ var method = require('./method.js')
 
 
 
-bot.on(['/start', '/help'], async msg => {
+app.bot.on(['/start', '/help'], async msg => {
     const chatId = msg.chat.id;
 
     await bot.sendMessage(chatId, 'Добро пожаловать!');
