@@ -19,7 +19,7 @@ var method = require('./method.js')
 
 
 
-app.bot.on(['/start', '/help'], async msg => {
+bot.on(['/start', '/help'], async msg => {
     const chatId = msg.chat.id;
 
     await bot.sendMessage(chatId, 'Добро пожаловать!');
