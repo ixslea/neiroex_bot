@@ -2,11 +2,11 @@
   "name": "neiroex_bot",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "server": "nodemon server.js --exec babel-node",
-    "start": "node index.js"
+    "start": "node app.js"
   },
   "keywords": [],
   "author": "",
@@ -28,6 +28,6 @@
     "nodemon": "^1.19.4"
   },
   "engines": {
-    "node": "14.x"
+    "node": ">=14 <15"
   }
 }
