@@ -1,0 +1,12 @@
+{
+    "functions": {
+      "api/**": {
+        "includeFiles": 
+          "node_modules/**"
+        
+      }
+    },
+    "github": {
+      "silent": true
+    }
+  }

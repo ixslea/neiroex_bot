@@ -1,7 +1,4 @@
-/node_modules
-.idea
+/node_modules/
+.vercel\
 .env
-.npmrc
-.babelrc
-vercel.js
 .vercel
